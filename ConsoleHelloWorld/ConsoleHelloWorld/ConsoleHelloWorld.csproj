@@ -7,8 +7,8 @@
     <ProjectGuid>{C558CCD7-F061-480E-83A9-6B14E907F920}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharp_Training</RootNamespace>
-    <AssemblyName>CSharp-Training</AssemblyName>
+    <RootNamespace>ConsoleHelloWorld</RootNamespace>
+    <AssemblyName>ConsoleHelloWorld</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
