@@ -1,6 +1,25 @@
 # Prerequisites
 *.d
 
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Temporary stuff
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# NuGet Packages
+*.nupkg
+
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +49,4 @@
 *.exe
 *.out
 *.app
+
