@@ -102,7 +102,6 @@ publish/
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
-
 # FAKE - F# Make
 .fake/
 
