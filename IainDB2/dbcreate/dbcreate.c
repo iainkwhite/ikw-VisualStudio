@@ -17,6 +17,11 @@ int main(int argc, char *argv[])
   char user[USERID_SZ + 1];
   char pswd[PSWD_SZ + 1];
 
+  printf("\ndbcreate: %i arguments entered  ",argc-1);
+  for (int i = 1 ; i < argc; ++i)
+	printf(" %i: %s ",i,argv[i]);
+  printf("\n ");
+
   /* check the command line arguments */
   rc = CmdLineArgsCheck3(argc, argv, dbname, nodeName, user, pswd);
   if (rc != 0)
@@ -24,7 +29,7 @@ int main(int argc, char *argv[])
     return rc;
   }
 
-  printf("\nCreate a Database with a custom collating sequence.\n");
+  printf("\nCreate a Database with a custom collating sequence.\n\n");
   printf("Parameters:\n");
   printf("<database name>  (defaults to 'sample')\n");
   printf("<instance>       (defaults to local)\n");
@@ -63,7 +68,7 @@ int DbCreate(char dbaseName[SQL_DBNAME_SZ + 1])
   strcpy(dbLocalAlias, dbaseName);
 /*strcpy(dbPath, "/db2db1/test");  */
 /*strcpy(dbPath, "/db2/db2path/db2clmdi"); */
-  strcpy(dbPath, "D:");
+  strcpy(dbPath,2,"D:");
 
   strcpy(dbDescriptor.sqldbdid, SQLE_DBDESC_2);
   dbDescriptor.sqldbccp = 0;
