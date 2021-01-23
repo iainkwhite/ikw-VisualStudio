@@ -68,7 +68,7 @@ int DbCreate(char dbaseName[SQL_DBNAME_SZ + 1])
   strcpy(dbLocalAlias, dbaseName);
 /*strcpy(dbPath, "/db2db1/test");  */
 /*strcpy(dbPath, "/db2/db2path/db2clmdi"); */
-  strcpy(dbPath,2,"D:");
+  strcpy(dbPath, "D:");
 
   strcpy(dbDescriptor.sqldbdid, SQLE_DBDESC_2);
   dbDescriptor.sqldbccp = 0;
