@@ -31,6 +31,12 @@ bld/
 *.plg
 *.opt
 
+# zips
+*.tar
+*.gz
+*.zip
+*.7z
+
 # Temporary stuff
 *.tmp
 *.tmp_proj
